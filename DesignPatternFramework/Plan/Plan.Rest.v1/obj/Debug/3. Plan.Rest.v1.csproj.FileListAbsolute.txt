@@ -1,0 +1,30 @@
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Plan.Rest.v1.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Plan.Rest.v1.pdb
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\AutoMapper.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Plan.Domain.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Plan.Domain.pdb
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\AutoMapper.xml
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\obj\Debug\3. Plan.Rest.v1.csprojResolveAssemblyReference.cache
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\obj\Debug\Plan.Rest.v1.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\obj\Debug\Plan.Rest.v1.pdb
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\System.Web.Http.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\System.Web.Http.xml
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\System.Net.Http.Formatting.xml
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Newtonsoft.Json.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Plan.Rest.v1.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Plan.Rest.v1.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\AutoMapper.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Plan.Domain.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\System.Web.Http.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Plan.Domain.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\AutoMapper.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\System.Web.Http.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\obj\Debug\3. Plan.Rest.v1.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\obj\Debug\Plan.Rest.v1.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1\obj\Debug\Plan.Rest.v1.pdb

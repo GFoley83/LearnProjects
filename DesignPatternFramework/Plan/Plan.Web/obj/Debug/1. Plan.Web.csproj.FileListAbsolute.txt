@@ -1,0 +1,82 @@
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Web.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Web.pdb
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Antlr3.Runtime.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\AutoMapper.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\EntityFramework.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Newtonsoft.Json.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Domain.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Rest.v1.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Net.Http.Formatting.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Http.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Http.WebHost.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Mvc.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Optimization.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Providers.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Razor.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.Razor.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\WebGrease.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Domain.pdb
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Plan.Rest.v1.pdb
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\AutoMapper.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\EntityFramework.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\Newtonsoft.Json.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Net.Http.Formatting.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Http.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Http.WebHost.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Mvc.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.Razor.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\System.Web.WebPages.Razor.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\obj\Debug\1. Plan.Web.csprojResolveAssemblyReference.cache
+C:\Temp\Plan Spark 4.5\Plan.Web\obj\Debug\Plan.Web.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\obj\Debug\Plan.Web.pdb
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\WebMatrix.Data.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\WebMatrix.WebData.dll
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\WebMatrix.Data.xml
+C:\Temp\Plan Spark 4.5\Plan.Web\bin\WebMatrix.WebData.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Web.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Web.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Antlr3.Runtime.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\AutoMapper.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\EntityFramework.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Newtonsoft.Json.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Domain.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Rest.v1.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Http.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Mvc.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Optimization.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Providers.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Razor.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\WebGrease.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\WebMatrix.Data.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\WebMatrix.WebData.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Domain.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Plan.Rest.v1.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\AutoMapper.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\EntityFramework.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\Newtonsoft.Json.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Http.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Mvc.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.Razor.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\WebMatrix.Data.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\bin\WebMatrix.WebData.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\obj\Debug\1. Plan.Web.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\obj\Debug\Plan.Web.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Web\obj\Debug\Plan.Web.pdb

@@ -1,0 +1,10 @@
+C:\Temp\Plan Spark 4.5\Plan.Domain\bin\Debug\Plan.Domain.dll
+C:\Temp\Plan Spark 4.5\Plan.Domain\bin\Debug\Plan.Domain.pdb
+C:\Temp\Plan Spark 4.5\Plan.Domain\obj\Debug\Plan.Domain.dll
+C:\Temp\Plan Spark 4.5\Plan.Domain\obj\Debug\Plan.Domain.pdb
+C:\Temp\Plan Spark 4.5\Plan.Domain\obj\Debug\2. Plan.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Domain\bin\Debug\Plan.Domain.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Domain\bin\Debug\Plan.Domain.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Domain\obj\Debug\2. Plan.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Domain\obj\Debug\Plan.Domain.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Domain\obj\Debug\Plan.Domain.pdb

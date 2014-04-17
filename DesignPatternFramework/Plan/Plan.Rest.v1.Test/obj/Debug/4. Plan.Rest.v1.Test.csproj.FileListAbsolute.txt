@@ -1,0 +1,16 @@
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.exe.config
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.exe
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.pdb
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\obj\Debug\Plan.Rest.v1.Test.exe
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\obj\Debug\Plan.Rest.v1.Test.pdb
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Temp\Plan Spark 4.5\Plan.Rest.v1.Test\obj\Debug\4. Plan.Rest.v1.Test.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.exe.config
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.exe
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\bin\Debug\Plan.Rest.v1.Test.pdb
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\obj\Debug\4. Plan.Rest.v1.Test.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\obj\Debug\Plan.Rest.v1.Test.exe
+C:\Users\Jacob\Documents\_Projects\DoFramework 4.5\DoFramework 4.5 CS\Plan\Plan.Rest.v1.Test\obj\Debug\Plan.Rest.v1.Test.pdb
