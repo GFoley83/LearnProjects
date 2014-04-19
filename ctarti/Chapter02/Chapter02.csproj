@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C02_Notes.cs" />
     <Compile Include="Q02_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

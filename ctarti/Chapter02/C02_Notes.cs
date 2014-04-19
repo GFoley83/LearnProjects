@@ -7,45 +7,45 @@ using System.Threading.Tasks;
 
 namespace Chapter02
 {
-    public class Node
-    {
-        Node next = null;
-        int data;
+    //public class Node
+    //{
+    //    Node next = null;
+    //    int data;
 
-        public Node(int d)
-        {
-            data = d;
-        }
+    //    public Node(int d)
+    //    {
+    //        data = d;
+    //    }
 
-        void appendToTail(int d)
-        {
-            Node end = new Node(d);
-            Node n = this;
-            while (n.next != null)
-                n = n.next;
-            n.next = end;
-        }
+    //    void appendToTail(int d)
+    //    {
+    //        Node end = new Node(d);
+    //        Node n = this;
+    //        while (n.next != null)
+    //            n = n.next;
+    //        n.next = end;
+    //    }
 
-        Node deleteNote(Node head, int d)
-        {
-            Node n = head;
+    //    Node deleteNote(Node head, int d)
+    //    {
+    //        Node n = head;
 
-            if (n.data == d)
-                return head.next; /* Move Ahead */
+    //        if (n.data == d)
+    //            return head.next; /* Move Ahead */
 
-            while (n.next != null)
-            {
-                if (n.next.data == d)
-                {
-                    n.next = n.next.next;
-                    return head; /* head didn't change */
-                }
-                n = n.next;
-            }
+    //        while (n.next != null)
+    //        {
+    //            if (n.next.data == d)
+    //            {
+    //                n.next = n.next.next;
+    //                return head; /* head didn't change */
+    //            }
+    //            n = n.next;
+    //        }
 
-            return head;
-        }
-    }
+    //        return head;
+    //    }
+    //}
 
     public class C02_Notes : IQuestion
     {
