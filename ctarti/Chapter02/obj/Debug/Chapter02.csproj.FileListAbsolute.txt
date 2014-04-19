@@ -1,0 +1,7 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\obj\Debug\Chapter02.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\bin\Debug\Chapter02.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\bin\Debug\Chapter02.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\bin\Debug\ctarti.Library.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\bin\Debug\ctarti.Library.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\obj\Debug\Chapter02.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter02\obj\Debug\Chapter02.pdb
