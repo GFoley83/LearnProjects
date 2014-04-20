@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\Set\bin\Debug\Set.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\Set\bin\Debug\Set.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\Set\obj\Debug\Set.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\Set\obj\Debug\Set.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\Set\obj\Debug\Set.pdb

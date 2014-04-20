@@ -14,6 +14,7 @@ namespace ctarti.Library
         public Node(int d)
         {
             Data = d;
+            
         }
 
         public virtual void AppendToTail(Node item)
@@ -37,7 +38,8 @@ namespace ctarti.Library
                 if (n.Next.Data == d)
                 {
                     n.Next = n.Next.Next;
-                    return head; /* head didn't change */
+                    /* head didn't change */
+                    return head; 
                 }
                 n = n.Next;
             }
@@ -54,22 +56,22 @@ namespace ctarti.Library
         }
     }
 
-    public class Node2 : Node
-    {
-        public Node Previous = null;
+    //public class Node2 : Node
+    //{
+    //    public Node Previous = null;
 
-        public override void AppendToTail(Node2 item)
-        {
-            throw new NotImplementedException();
-        }
+    //    public override void AppendToTail(Node2 item)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public override Node DeleteNote(Node2 head, int d)
-        {
-            throw new NotImplementedException();
-            return null;
-        }
+    //    public override Node DeleteNote(Node2 head, int d)
+    //    {
+    //        throw new NotImplementedException();
+    //        return null;
+    //    }
 
-    }
+    //}
 
     public class Stack
     {

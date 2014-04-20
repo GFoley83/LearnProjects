@@ -1,0 +1,11 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\LinkedList.Tests.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\LinkedList.Tests.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\DoublyLinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\LinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\nunit.framework.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\DoublyLinkedList.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\LinkedList.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\bin\Debug\nunit.framework.xml
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\obj\Debug\LinkedList.Tests.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\obj\Debug\LinkedList.Tests.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList.Tests\obj\Debug\LinkedList.Tests.pdb

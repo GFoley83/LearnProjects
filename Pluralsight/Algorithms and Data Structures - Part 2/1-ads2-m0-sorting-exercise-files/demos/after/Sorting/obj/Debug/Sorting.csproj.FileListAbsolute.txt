@@ -1,0 +1,7 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\bin\Debug\Sorting.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\bin\Debug\Sorting.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\bin\Debug\Tracker.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\bin\Debug\Tracker.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\obj\Debug\Sorting.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Sorting\obj\Debug\Sorting.pdb

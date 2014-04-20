@@ -15,6 +15,11 @@ namespace ctarti
     {
         static void Main(string[] args)
         {
+            MyBinaryTree<int> tree = new MyBinaryTree<int>();
+            tree.InsertLeft(new MyTreeNode<int>(null, 5));
+            tree.InsertRight(new MyTreeNode<int>(null, 5));
+
+
             IQuestion[] questions = new IQuestion[]
             {
                 // Chapters

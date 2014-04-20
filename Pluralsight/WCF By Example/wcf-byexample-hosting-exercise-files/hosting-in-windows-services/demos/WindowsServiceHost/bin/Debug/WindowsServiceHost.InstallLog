@@ -1,0 +1,21 @@
+﻿Installing assembly 'C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+   logfile = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+Installing service EvalServiceHost...
+Service EvalServiceHost has been successfully installed.
+Creating EventLog source EvalServiceHost in log Application...
+Committing assembly 'C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+   logfile = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+Uninstalling assembly 'C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+   logfile = C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+Removing EventLog source EvalServiceHost.
+Service EvalServiceHost is being removed from the system...
+Service EvalServiceHost was successfully removed from the system.

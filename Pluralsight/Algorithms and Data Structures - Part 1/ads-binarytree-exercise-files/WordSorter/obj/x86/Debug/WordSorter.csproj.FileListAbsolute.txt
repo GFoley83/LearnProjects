@@ -1,0 +1,7 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\bin\Debug\WordSorter.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\bin\Debug\WordSorter.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\bin\Debug\BinaryTree.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\bin\Debug\BinaryTree.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\obj\x86\Debug\WordSorter.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\obj\x86\Debug\WordSorter.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-binarytree-exercise-files\WordSorter\obj\x86\Debug\WordSorter.pdb

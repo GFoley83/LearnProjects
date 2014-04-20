@@ -1,0 +1,8 @@
+C:\Demos\restful-services\Client\bin\Debug\Client.exe
+C:\Demos\restful-services\Client\bin\Debug\Client.pdb
+C:\Demos\restful-services\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Demos\restful-services\Client\obj\Debug\Client.exe
+C:\Demos\restful-services\Client\obj\Debug\Client.pdb
+C:\Demos\restful-services\Client\bin\Debug\Client.exe.config
+C:\Demos\restful-services\Client\bin\Debug\EvalServiceLibrary.dll
+C:\Demos\restful-services\Client\bin\Debug\EvalServiceLibrary.pdb

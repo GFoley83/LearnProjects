@@ -1,0 +1,13 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\SortingVisualizer.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\SortingVisualizer.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\SortingVisualizer.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\Sorting.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\Tracker.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\Sorting.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\bin\Debug\Tracker.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.Form1.resources
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.Properties.Resources.resources
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.csproj.GenerateResource.Cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\SortingVisualizer\obj\x86\Debug\SortingVisualizer.pdb

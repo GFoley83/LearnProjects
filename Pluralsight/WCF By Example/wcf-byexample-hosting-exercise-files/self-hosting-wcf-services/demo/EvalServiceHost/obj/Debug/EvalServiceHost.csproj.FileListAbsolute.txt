@@ -1,0 +1,8 @@
+C:\Demos\EvalServiceHost\bin\Debug\EvalServiceHost.exe.config
+C:\Demos\EvalServiceHost\bin\Debug\EvalServiceHost.exe
+C:\Demos\EvalServiceHost\bin\Debug\EvalServiceHost.pdb
+C:\Demos\EvalServiceHost\bin\Debug\EvalServiceLibrary.dll
+C:\Demos\EvalServiceHost\bin\Debug\EvalServiceLibrary.pdb
+C:\Demos\EvalServiceHost\obj\Debug\ResolveAssemblyReference.cache
+C:\Demos\EvalServiceHost\obj\Debug\EvalServiceHost.exe
+C:\Demos\EvalServiceHost\obj\Debug\EvalServiceHost.pdb

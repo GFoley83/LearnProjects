@@ -1,0 +1,6 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\bin\Debug\LearnIEnumerable.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\obj\Debug\LearnIEnumerable.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\bin\Debug\LearnIEnumerable.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\bin\Debug\LearnIEnumerable.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\obj\Debug\LearnIEnumerable.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnIEnumerable\LearnIEnumerable\obj\Debug\LearnIEnumerable.pdb

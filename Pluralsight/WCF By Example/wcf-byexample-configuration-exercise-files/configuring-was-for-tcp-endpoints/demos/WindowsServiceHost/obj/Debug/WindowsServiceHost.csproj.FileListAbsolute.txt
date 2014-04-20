@@ -1,0 +1,11 @@
+C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe.config
+C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+C:\Demos\Hosting\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
+C:\Demos\Hosting\WindowsServiceHost\bin\Debug\EvalServiceLibrary.dll
+C:\Demos\Hosting\WindowsServiceHost\bin\Debug\EvalServiceLibrary.pdb
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\ResolveAssemblyReference.cache
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\WindowsServiceHost.EvalServiceHost.resources
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\WindowsServiceHost.csproj.GenerateResource.Cache
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\WindowsServiceHost.exe
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\WindowsServiceHost.pdb
+C:\Demos\Hosting\WindowsServiceHost\obj\Debug\WindowsServiceHost.ProjectInstaller.resources

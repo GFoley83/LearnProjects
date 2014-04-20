@@ -1,0 +1,14 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\bin\Debug\SetDemo.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\bin\Debug\SetDemo.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\bin\Debug\Set.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\bin\Debug\Set.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\App.g.cs
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo_MarkupCompile.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.g.resources
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.Properties.Resources.resources
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.csproj.GenerateResource.Cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\2-ads2-m1-sets-exercise-files\demos\after\SetDemo\obj\x86\Debug\SetDemo.pdb

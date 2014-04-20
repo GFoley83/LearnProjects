@@ -1,0 +1,9 @@
+C:\Demos\Hosting\Client\bin\Debug\Client.exe.config
+C:\Demos\Hosting\Client\bin\Debug\Client.exe
+C:\Demos\Hosting\Client\bin\Debug\Client.pdb
+C:\Demos\Hosting\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Demos\Hosting\Client\obj\Debug\Client.exe
+C:\Demos\Hosting\Client\obj\Debug\Client.pdb
+C:\Work\Sapphire\Recordings\modules\hosting\demos\Client\bin\Debug\Client.exe.config
+C:\Work\Sapphire\Recordings\modules\hosting\demos\Client\obj\Debug\Client.exe
+C:\Work\Sapphire\Recordings\modules\hosting\demos\Client\obj\Debug\Client.pdb

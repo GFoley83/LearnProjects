@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList\bin\Debug\LinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList\obj\Debug\LinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\LinkedList\obj\Debug\LinkedList.pdb

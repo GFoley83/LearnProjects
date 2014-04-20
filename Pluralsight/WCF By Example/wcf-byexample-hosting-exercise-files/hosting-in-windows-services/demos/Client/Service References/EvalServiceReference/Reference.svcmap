@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fe29bedc-a8ab-42d8-9055-86bc46f7ce08" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/evals/evals.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="evals.xsd" MetadataType="Schema" ID="b5f15136-2b13-4644-aa78-e4aa265cde6c" SourceId="1" SourceUrl="http://skonnard-office/evals/evals.svc?xsd=xsd2" />
+    <MetadataFile FileName="evals.disco" MetadataType="Disco" ID="07eb541b-2c1e-43c9-89a8-9059ae76c1c0" SourceId="1" SourceUrl="http://skonnard-office/evals/evals.svc?disco" />
+    <MetadataFile FileName="evals1.xsd" MetadataType="Schema" ID="69f34ce1-089f-42d1-9b97-ba4f9c9b8d5c" SourceId="1" SourceUrl="http://skonnard-office/evals/evals.svc?xsd=xsd1" />
+    <MetadataFile FileName="evals2.xsd" MetadataType="Schema" ID="27f3489a-ce1e-453a-85cb-c3868111d6fa" SourceId="1" SourceUrl="http://skonnard-office/evals/evals.svc?xsd=xsd0" />
+    <MetadataFile FileName="EvalService.wsdl" MetadataType="Wsdl" ID="06645e34-a772-44f3-bbbe-055bc2120ee0" SourceId="1" SourceUrl="http://skonnard-office/evals/evals.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,4 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\DoublyLinkedList\bin\Debug\DoublyLinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\DoublyLinkedList\bin\Debug\DoublyLinkedList.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\DoublyLinkedList\obj\Debug\DoublyLinkedList.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 1\ads-linked-list-exercise-files\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb

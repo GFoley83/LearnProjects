@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Tracker\bin\Debug\Tracker.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Tracker\bin\Debug\Tracker.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Tracker\obj\Debug\Tracker.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Tracker\obj\Debug\Tracker.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Pluralsight\Algorithms and Data Structures - Part 2\1-ads2-m0-sorting-exercise-files\demos\after\Tracker\obj\Debug\Tracker.pdb
