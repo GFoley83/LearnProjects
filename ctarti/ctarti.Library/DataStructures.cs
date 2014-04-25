@@ -47,13 +47,13 @@ namespace ctarti.Library
             return head;
         }
 
-        public override string ToString()
-        {
-            if (Next.Data == null)
-                return string.Format("Node: Data={0}, Next=Null", Data);                
-            else
-                return string.Format("Node: Data={0}, Next={1}", Data, Next.Data);
-        }
+        //public override string ToString()
+        //{
+        //    if (Next.Data == null)
+        //        return string.Format("Node: Data={0}, Next=Null", Data);                
+        //    else
+        //        return string.Format("Node: Data={0}, Next={1}", Data, Next.Data);
+        //}
     }
 
     //public class Node2 : Node

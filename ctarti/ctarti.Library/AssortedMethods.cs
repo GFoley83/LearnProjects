@@ -185,10 +185,10 @@ namespace ctarti.Library
 		    return buffer.ToString();
 	    }
 	
-	    public static TreeNode RandomBst(int N, int min, int max) 
+	    public static BinaryTreeNode RandomBst(int N, int min, int max) 
         {
 		    int d = RandomIntInRange(min, max);
-		    TreeNode root = new TreeNode(d);
+		    BinaryTreeNode root = new BinaryTreeNode(d);
 		    for (int i = 1; i < N; i++) {
 			    root.InsertInOrder(RandomIntInRange(min, max));
 		    }
@@ -196,22 +196,22 @@ namespace ctarti.Library
 	    }
 	
 	    /* Creates tree by mapping the array left to right, top to bottom. */
-	    public static TreeNode CreateTreeFromArray(int[] array) {
+	    public static BinaryTreeNode CreateTreeFromArray(int[] array) {
 		    if (array.Length > 0) {
-			    TreeNode root = new TreeNode(array[0]);
-			    Queue<TreeNode> queue =
-                    new Queue<TreeNode>();
+			    BinaryTreeNode root = new BinaryTreeNode(array[0]);
+			    Queue<BinaryTreeNode> queue =
+                    new Queue<BinaryTreeNode>();
 			    queue.Enqueue(root);
 			    bool done = false;
 			    int i = 1 ;
 			    while (!done) {
-				    TreeNode r = (TreeNode) queue.Peek();
+				    BinaryTreeNode r = (BinaryTreeNode) queue.Peek();
 				    if (r.Left == null) {
-					    r.Left = new TreeNode(array[i]);
+					    r.Left = new BinaryTreeNode(array[i]);
 					    i++;
                         queue.Enqueue(r.Left);
 				    } else if (r.Right == null) {
-					    r.Right = new TreeNode(array[i]);
+					    r.Right = new BinaryTreeNode(array[i]);
 					    i++;
                         queue.Enqueue(r.Right);
 				    } else {

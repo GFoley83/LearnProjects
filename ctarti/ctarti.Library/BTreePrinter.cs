@@ -5,13 +5,13 @@ namespace ctarti.Library
 {
     public class BTreePrinter
     {
-        public static void PrintNode(TreeNode root) {
+        public static void PrintNode(BinaryTreeNode root) {
             int maxLevel = BTreePrinter.MaxLevel(root);
 
-            PrintNodeInternal(new List<TreeNode>() { root }, 1, maxLevel);
+            PrintNodeInternal(new List<BinaryTreeNode>() { root }, 1, maxLevel);
         }
 
-        private static void PrintNodeInternal(List<TreeNode> nodes, int level, int maxLevel) {
+        private static void PrintNodeInternal(List<BinaryTreeNode> nodes, int level, int maxLevel) {
             if (nodes.Count==0 || BTreePrinter.IsAllElementsNull(nodes))
                 return;
 
@@ -22,8 +22,8 @@ namespace ctarti.Library
 
             BTreePrinter.PrintWhitespaces(firstSpaces);
 
-            List<TreeNode> newNodes = new List<TreeNode>();
-            foreach (TreeNode node in nodes) {
+            List<BinaryTreeNode> newNodes = new List<BinaryTreeNode>();
+            foreach (BinaryTreeNode node in nodes) {
                 if (node != null) {
                     Console.Write(node.Data);
                     newNodes.Add(node.Left);
@@ -76,7 +76,7 @@ namespace ctarti.Library
             //    Console.Write(" ");
         }
 
-        private static int MaxLevel(TreeNode node) {
+        private static int MaxLevel(BinaryTreeNode node) {
             if (node == null)
                 return 0;
 

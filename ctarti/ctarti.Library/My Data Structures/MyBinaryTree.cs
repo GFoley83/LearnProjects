@@ -6,48 +6,73 @@ using System.Threading.Tasks;
 
 namespace ctarti.Library
 {
-    public class MyTreeNodeint
+    public class MyBinarySearchTreeNode<TNode> : IComparable<TNode>
+        where TNode : IComparable<TNode>
     {
-        public MyTreeNodeint Left;
-        public MyTreeNodeint Right;
-        public MyTreeNodeint Parent;
-        public TNode Data { get; private set; }
+        public MyBinarySearchTreeNode<TNode> Left;
+        public MyBinarySearchTreeNode<TNode> Right;
+        //public MyTreeNode<TNode> Parent;
+        public TNode Value { get; private set; }
 
-        public MyTreeNode(MyTreeNodeint parent, TNode value)
+        public MyBinarySearchTreeNode(TNode value)
         {
-            this.Parent = parent;
             this.Value = value;
+        }
+
+        /// <summary>
+        /// Compares the current node to the provided value
+        /// </summary>
+        /// <param name="other">The node value to compare to</param>
+        /// <returns>1 if the instance value is greater than the provided value, -1 if less or 0 if equal.</returns>
+        public int CompareTo(TNode other)
+        {
+            return Value.CompareTo(other);
         }
     }
 
-    public class MyBinaryTree<T>: IEnumerable<T>
+    public class MyBinarySearchTree<T>: IEnumerable<T>
         where T: IComparable<T>
     {
-        private MyTreeNode<T> Head;
+        public MyBinarySearchTreeNode<T> Head;
         private int _count;
 
-        #region Node Insert and Remove Operations
+
+        #region Add and Remove Node Operations
+        /// <summary>
+        /// Adds the provided value to the binary tree.
+        /// </summary>
+        /// <param name="value"></param>
         public void Add(T value)
         {
-            // Case 1: The tree is empty - allocate the head
             if (Head == null)
-                new MyTreeNode<T>(null, value);
-            // Case 2: The tree is not empty so find the right location to insert
+                //Case #1 - Empty Tree
+                Head = new MyBinarySearchTreeNode<T>(value);
             else
+                //Case #2 - Find Insert Point, Start With Head
                 AddTo(Head, value);
         }
 
-        public void AddTo(MyTreeNode<T> node, T value)
+        // Recursive add algorithm
+        private void AddTo(MyBinarySearchTreeNode<T> node, T value)
         {
-            //Case 1: The value is less than or equal to node
-            if (value.CompareTo(node.Data) <= 0)
-            {
-
-            }
+            //Case #1 - value <= node
+            if (value.CompareTo(node.Value) <= 0)
+	        {
+                if (node.Left == null)
+                    //Insert Left
+                    node.Left = new MyBinarySearchTreeNode<T>(value);
+                else
+                    //Move Left
+                    AddTo(node.Left, value);
+	        }
+            //Case #2 l- value > node
             else
-            //Case 2: The value is greater than the node
             {
-
+                if (node.Right == null)
+                    //Insert Right
+                    node.Right = new MyBinarySearchTreeNode<T>(value);
+                else
+                    AddTo(node.Right, value);
             }
         }
 
@@ -58,36 +83,134 @@ namespace ctarti.Library
         #endregion
 
         #region BST Traversing Operations
-        public MyTreeNode<T> NextNodeInOrder()
+        /// <summary>
+        /// Process-->Left-->Right
+        /// </summary>
+        public void PreOrderTraversal()
         {
-            return null;
+            if (Head == null)
+                throw new Exception("Tree is empty.");
+            else
+                PreOrderTraversal(Head);
+        }
+        private void PreOrderTraversal(MyBinarySearchTreeNode<T> node)
+        {
+            //Process Node
+            Console.WriteLine("PreOrderTraversal: {0}", node.Value);
+
+            //Move Left
+            if (node.Left != null)
+                PreOrderTraversal(node.Left);
+
+            //Move Right
+            if (node.Right != null)
+                PreOrderTraversal(node.Right);
         }
 
-        public MyTreeNode<T> NextNodePostOrder()
+        /// <summary>
+        /// Left-->Process-->Rgith
+        /// </summary>
+        public void InOrderTraversal()
         {
-            return null;
+            if (Head == null)
+                throw new Exception("Tree is empty.");
+            else
+                InOrderTraversal(Head);
+        }
+        private void InOrderTraversal(MyBinarySearchTreeNode<T> node)
+        {
+            //Move Left
+            if (node.Left != null)
+                InOrderTraversal(node.Left);
+
+            //Process Node
+            Console.WriteLine("InOrderTraversal: {0}", node.Value);
+
+            //Move Right
+            if (node.Right != null)
+                InOrderTraversal(node.Right);
         }
 
-        public MyTreeNode<T> NextNodePreOrder()
+        /// <summary>
+        /// Left-->Right-->Process
+        /// </summary>
+        public void PostOrderTraversal()
         {
-            return null;
+            if (Head == null)
+                throw new Exception("Tree is empty.");
+            else
+                PostOrderTraversal(Head);
         }
-        #endregion
-
-        #region BFT and DFT Operations
-        public MyTreeNode<T> NextNodeBreadthFirst()
+        private void PostOrderTraversal(MyBinarySearchTreeNode<T> node)
         {
-            return null;
+            //Move Left
+            if (node.Left != null)
+                PostOrderTraversal(node.Left);
+
+            //Move Right
+            if (node.Right != null)
+                PostOrderTraversal(node.Right);
+
+            //Process Node
+            Console.WriteLine("PostOrderTraversal: {0}", node.Value);
         }
 
-        public MyTreeNode<T> NextNodeDepthFirst()
+        /// <summary>
+        /// This is a non-recursive algorithm using a stack to demonstrate 
+        /// removing recursion to make using the yield syntax easier.
+        /// </summary>
+        /// <returns>Node's value using in in-order traversal</returns>
+        public IEnumerator<T> InOrderTraversalEnumeration()
         {
-            return null;
+            if (Head == null)
+                throw new Exception("Tree is empty.");
+            
+            //Store the nodes we've skipped in this stack (avoids recursion)
+            Stack<MyBinarySearchTreeNode<T>> stack = new Stack<MyBinarySearchTreeNode<T>>();
+
+            MyBinarySearchTreeNode<T> currentNode = Head;
+
+            //Skip Root Node
+            stack.Push(currentNode);
+            
+            //
+            bool goLeftNext = true;
+
+            while (stack.Count<MyBinarySearchTreeNode<T>>() > 0)
+            {
+                if (goLeftNext)
+                {
+                    //Go To Far Left
+                    while (currentNode.Left != null)
+                    {
+                        stack.Push(currentNode);
+                        currentNode = currentNode.Left;
+                    }
+                }
+
+                //Process Result
+                yield return currentNode.Value;
+
+                //Go Right If Can...
+                if (currentNode.Right != null)
+                {
+                    //Move Right
+                    currentNode = currentNode.Right;
+                    goLeftNext = true;
+                }
+                else
+                {
+                    currentNode = stack.Pop();
+                    goLeftNext = false;
+                }
+
+            }
+
         }
         #endregion
 
         #region Find Node Operations
-        public MyTreeNode<T> FindRootNode()
+        public MyBinarySearchTreeNode<T> FindRootNode()
         {
             //if (this.Parent == null)
             //    return this;
@@ -95,14 +218,61 @@ namespace ctarti.Library
             //    return this.Parent.FindRootNode();
             return null;
         }
-        public MyTreeNode<T> FindNodeValue(int value)
+        public MyBinarySearchTreeNode<T> FindNodeValue(int value)
         {
             return null;
         }
 
         public bool IsBinarySearchTree()
         {
-            return false;
+
+            //Store the nodes we've skipped in this stack (avoids recursion)
+            Stack<MyBinarySearchTreeNode<T>> stack = new Stack<MyBinarySearchTreeNode<T>>();
+
+            MyBinarySearchTreeNode<T> currentNode = Head;
+            MyBinarySearchTreeNode<T> lastNode = Head;
+
+            //Skip Root Node
+            stack.Push(currentNode);
+
+            //
+            bool goLeftNext = true;
+
+            while (stack.Count<MyBinarySearchTreeNode<T>>() > 0)
+            {
+                if (goLeftNext)
+                {
+                    //Go To Far Left
+                    while (currentNode.Left != null)
+                    {
+                        stack.Push(currentNode);
+                        currentNode = currentNode.Left;
+                    }
+                }
+
+                //Process Result
+                if ((currentNode.CompareTo(lastNode.Value) < 0) && (lastNode != Head))
+                    return false;
+                else
+                    lastNode = currentNode;                    
+
+
+                //Go Right If Can...
+                if (currentNode.Right != null)
+                {
+                    //Move Right
+                    currentNode = currentNode.Right;
+                    goLeftNext = true;
+                }
+                else
+                {
+                    currentNode = stack.Pop();
+                    goLeftNext = false;
+                }
+
+            }
+            
+            return true;
         }
         #endregion
 
@@ -128,7 +298,7 @@ namespace ctarti.Library
         #region Enumeration
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return InOrderTraversalEnumeration();
         }
 
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
