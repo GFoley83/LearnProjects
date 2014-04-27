@@ -8,7 +8,13 @@ namespace ctarti.DataStructures
 {
     public class GraphNode
     {
+        public int Key;
 
+        public GraphNode(int key)
+        { this.Key = key; }
+
+        public override string ToString()
+        { return Key.ToString(); }
     }
 
     public class GraphCollection

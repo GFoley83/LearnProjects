@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skmDataStructures", "skmDataStructures.csproj", "{4656E79B-D38A-492A-BB10-3761A2B9EFCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTTester", "..\BSTTester\BSTTester.csproj", "{97658C12-871B-409B-AA13-6EAEBD202316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipListTester", "..\SkipListTester\SkipListTester.csproj", "{188E6142-35FE-45BC-AB03-D44478A79518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTester", "..\GraphTester\GraphTester.csproj", "{DEA4C71E-9A9F-438F-BC75-B08C74404055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

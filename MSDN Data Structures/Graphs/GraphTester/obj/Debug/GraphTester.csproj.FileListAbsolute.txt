@@ -1,0 +1,9 @@
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\obj\Debug\GraphTester.exe
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\obj\Debug\GraphTester.pdb
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\obj\Debug\GraphTester.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\obj\Debug\GraphTester.Form1.resources
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\obj\Debug\GraphTester.csproj.GenerateResource.Cache
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\GraphTester.exe
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\GraphTester.pdb
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\skmDataStructures.dll
+C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\skmDataStructures.pdb

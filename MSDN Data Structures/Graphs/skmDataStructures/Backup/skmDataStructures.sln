@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skmDataStructures", "skmDataStructures.csproj", "{4656E79B-D38A-492A-BB10-3761A2B9EFCD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTTester", "..\BSTTester\BSTTester.csproj", "{97658C12-871B-409B-AA13-6EAEBD202316}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipListTester", "..\SkipListTester\SkipListTester.csproj", "{188E6142-35FE-45BC-AB03-D44478A79518}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTester", "..\GraphTester\GraphTester.csproj", "{DEA4C71E-9A9F-438F-BC75-B08C74404055}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Debug.ActiveCfg = Debug|.NET
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Debug.Build.0 = Debug|.NET
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Release.ActiveCfg = Release|.NET
+		{4656E79B-D38A-492A-BB10-3761A2B9EFCD}.Release.Build.0 = Release|.NET
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Debug.ActiveCfg = Debug|.NET
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Debug.Build.0 = Debug|.NET
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Release.ActiveCfg = Release|.NET
+		{97658C12-871B-409B-AA13-6EAEBD202316}.Release.Build.0 = Release|.NET
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Debug.ActiveCfg = Debug|.NET
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Debug.Build.0 = Debug|.NET
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Release.ActiveCfg = Release|.NET
+		{188E6142-35FE-45BC-AB03-D44478A79518}.Release.Build.0 = Release|.NET
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Debug.ActiveCfg = Debug|.NET
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Debug.Build.0 = Debug|.NET
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Release.ActiveCfg = Release|.NET
+		{DEA4C71E-9A9F-438F-BC75-B08C74404055}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

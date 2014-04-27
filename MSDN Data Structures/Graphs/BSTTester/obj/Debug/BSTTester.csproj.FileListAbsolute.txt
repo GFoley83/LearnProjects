@@ -1,0 +1,9 @@
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\bin\Debug\BSTTester.exe
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\bin\Debug\BSTTester.pdb
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\bin\Debug\skmDataStructures.dll
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\bin\Debug\skmDataStructures.pdb
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\obj\Debug\BSTTester.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\obj\Debug\BSTTester.Form1.resources
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\obj\Debug\BSTTester.csproj.GenerateResource.Cache
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\obj\Debug\BSTTester.exe
+C:\Users\johnmor\Documents\MSDN\Graphs\BSTTester\obj\Debug\BSTTester.pdb
