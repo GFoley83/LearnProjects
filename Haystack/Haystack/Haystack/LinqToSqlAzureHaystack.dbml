@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="haystack" Class="LinqToSqlAzureHaystackDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=yugswaeatg.database.windows.net,1433;Initial Catalog=haystack;Persist Security Info=True;User ID=invictus" SettingsObjectName="Haystack.Properties.Settings" SettingsPropertyName="haystackConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.T_TwitterUsers" Member="T_TwitterUsers">
+    <Type Name="T_TwitterUser">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FollowersCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="IsProtected" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ProfileImageUrl" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ScreenName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsVerified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsGeoEnabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ProfileBackgroundImageUrl" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="StatusesCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FriendsCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FavoritesCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ListedCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TimeZone" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UtcOffset" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsContributorsEnabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterUrls" Member="T_TwitterUrls">
+    <Type Name="T_TwitterUrl">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="ExpandedValue" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterTweets" Member="T_TwitterTweets">
+    <Type Name="T_TwitterTweet">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="InReplyToScreenName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="InReplayToTweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="InReplayToUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="IsFavorited" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsTruncated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TweeterScreenName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TweeterId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="IsPossiblySensitive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RetweetCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterPlaces" Member="T_TwitterPlaces">
+    <Type Name="T_TwitterPlace">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="PlaceId" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="CountryCode" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PlaceType" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterMentions" Member="T_TwitterMentions">
+    <Type Name="T_TwitterMention">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="MentionId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ScreenName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterMedias" Member="T_TwitterMedias">
+    <Type Name="T_TwitterMedia">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="MediaId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="MediaUrl" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="DisplayUrl" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="ExpandedUrl" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="MediaType" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterHashTags" Member="T_TwitterHashTags">
+    <Type Name="T_TwitterHashTag">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterGeoLocations" Member="T_TwitterGeoLocations">
+    <Type Name="T_TwitterGeoLocation">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TweeterUserId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.Decimal" DbType="Decimal(16,8)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.Decimal" DbType="Decimal(16,8)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_CollectionTasks" Member="T_CollectionTasks">
+    <Type Name="T_CollectionTask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Project" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Command" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Target" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Parameters" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Issued" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Collected" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Station" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Collector" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ResultHash" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BlobName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Processed" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterFriends" Member="T_TwitterFriends">
+    <Type Name="T_TwitterFriend">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="SourceUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SourceId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TargetUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TargetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Complete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_TwitterFollowers" Member="T_TwitterFollowers">
+    <Type Name="T_TwitterFollower">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CollectionTaskId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TargetUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TargetId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="SourceUserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SourceId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Complete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

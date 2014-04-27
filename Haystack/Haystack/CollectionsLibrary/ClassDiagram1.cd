@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CollectionsLibrary.TwitterCredentials">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQAIAAAIAAAAAAAKBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TwitterCredentials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectionsLibrary.TwitterCollector">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAQAIAAAABAAGCAAAAAAAAIAAABAAAAA=</HashCode>
+      <FileName>TwitterCollector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectionsLibrary.AbstractCollector">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIQAAABACAAIRBCCAQAIAAAAAAAAEAAEBA=</HashCode>
+      <FileName>AbstractCollector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

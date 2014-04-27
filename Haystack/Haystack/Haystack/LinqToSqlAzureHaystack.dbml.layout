@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 13.75" name="LinqToSqlAzureHaystack">
+  <DataContextMoniker Name="/LinqToSqlAzureHaystackDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cfd7bb6e-c4a8-4162-aad7-3904254456a4" absoluteBounds="0.75, 0.75, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e784299-57fe-4d65-94ba-65ed166e133e" absoluteBounds="0.765, 1.21, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c40e6799-c8ab-4e66-ab37-e406b3e2ac1b" absoluteBounds="3.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterUrl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd01136a-3720-46db-9ea2-4a77d61a94be" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc42e0eb-94ea-4bf9-aee9-0630e84dd7b2" absoluteBounds="3.75, 3.75, 2, 3.6939111328124992">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterTweet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7027c150-1585-48d9-8992-6056365834fe" absoluteBounds="3.765, 4.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="909d88a1-52f8-4463-978a-de6292cca3e2" absoluteBounds="6.75, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterPlace" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d88e3413-bb53-46b1-be6f-a97849180e1c" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="205adeb1-534e-4bea-9c4f-ea4e574a684d" absoluteBounds="6.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterMention" />
+      <nestedChildShapes>
+        <elementListCompartment Id="825c3398-86ad-4ebf-ac78-e309a362a4e0" absoluteBounds="6.765, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa86bcbf-1de2-4ff2-a610-115bef23f9bd" absoluteBounds="6.75, 7.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2f678ec-ca2d-4607-bca9-2e24b14c2ad3" absoluteBounds="6.765, 8.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b8b82553-2be6-4f73-bb9b-8102d7f6473d" absoluteBounds="0.75, 8.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterHashTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="427d8c4e-beaa-4274-a6a7-7af0bd6e62cf" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="83d71150-85ba-42d7-aec1-e37e233b18d5" absoluteBounds="9.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterGeoLocation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3903bb9e-e5b1-4004-8ee0-fdfe36ee37ba" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d74bf30-218f-4f57-8d65-d5d97333dd2a" absoluteBounds="9.75, 9.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_CollectionTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a84fa5c4-a270-4b68-bcca-c912188c9607" absoluteBounds="9.765, 10.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6349b6fa-fc6b-47a2-8681-076580b40c82" absoluteBounds="3.375, 8.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterFriend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f76637d-7c59-455e-875e-d69cb5cab536" absoluteBounds="3.39, 9.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="211a0037-dc3b-46f6-8dab-5fd9d6fa6eec" absoluteBounds="9.375, 3.75, 2, 2.347801106770834">
+      <DataClassMoniker Name="/LinqToSqlAzureHaystackDataContext/T_TwitterFollower" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b759459-4f1a-4e0d-928f-97f905247c76" absoluteBounds="9.39, 4.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
