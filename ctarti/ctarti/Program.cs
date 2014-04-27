@@ -33,11 +33,22 @@ namespace ctarti
             ArrayCollection ac = new ArrayCollection();
             //ac.BubbleSort();
             //ac.SelectSort();
-            ac.PrintCollection();
-            ac.MergeSort();
-            ac.PrintCollection();
+            //ac.PrintCollection();
+            //ac.MergeSort();
+            //ac.PrintCollection();
             //ac.QuickSort();
 
+            GraphCollection graph = new GraphCollection();
+            graph = ((GraphCollection)graph.GenerateRandomCollection(10, 10, 30));
+            graph.PrintCollection();
+
+            Console.WriteLine("\n\nDeapthFirstTraversal:");
+            graph.DeapthFirstTraversal(graph.Nodes.First<GraphNode>());
+
+            graph.ResetVisitedNodes();
+
+            Console.WriteLine("\n\nDeapthFirstTraversal:");
+            graph.BreadthFirstTraversal(graph.Nodes.First<GraphNode>());
         }
 
         static private void RunQuestions()

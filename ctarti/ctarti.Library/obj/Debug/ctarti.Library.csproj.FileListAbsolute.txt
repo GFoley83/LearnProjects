@@ -2,4 +2,3 @@ C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.Library\bin\Debug\
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.Library\bin\Debug\ctarti.Library.pdb
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.Library\obj\Debug\ctarti.Library.dll
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.Library\obj\Debug\ctarti.Library.pdb
-C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.Library\obj\Debug\ctarti.Library.csprojResolveAssemblyReference.cache

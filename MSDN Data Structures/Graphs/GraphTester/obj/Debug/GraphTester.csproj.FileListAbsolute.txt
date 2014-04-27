@@ -7,3 +7,5 @@ C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\GraphTester.exe
 C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\GraphTester.pdb
 C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\skmDataStructures.dll
 C:\Users\johnmor\Documents\MSDN\Graphs\GraphTester\bin\Debug\skmDataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Graphs\GraphTester\obj\Debug\GraphTester.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Graphs\GraphTester\obj\Debug\GraphTester.pdb
