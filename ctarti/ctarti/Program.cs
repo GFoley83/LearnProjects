@@ -8,6 +8,7 @@ using Chapter01;
 using Chapter02;
 using Chapter03;
 using Chapter04;
+using ctarti.DataStructures;
 
 namespace ctarti
 {
@@ -15,31 +16,32 @@ namespace ctarti
     {
         static void Main(string[] args)
         {
-            MyBinarySearchTree<int> tree = new MyBinarySearchTree<int>();
-            tree.Add(8);
-            tree.Add(9);
-            tree.Add(10);
-            tree.Add(7);
-            tree.Add(6);
-            tree.Add(4);
-            tree.Add(103);
-            tree.Add(44);
-            tree.Add(23);
+            TestDataStructures();
 
+            Console.WriteLine("Press [Enter] to quit");
+            Console.ReadLine();
+        }
 
-            //foreach (int  i in tree)
-            //{
-            //    Console.WriteLine("ProcessNode={0}", i);
-            //}
+        static private void TestDataStructures()
+        {
+            //LinkedListCollection llc = new LinkedListCollection();
+            //llc.Add(new DataStructures.LinkedListNode(0));
+            //llc.Add(new DataStructures.LinkedListNode(1));
+            //llc.Add(new DataStructures.LinkedListNode(2));
+            //llc.Add(new DataStructures.LinkedListNode(3));
 
-            //tree.PreOrderTraversal();
+            ArrayCollection ac = new ArrayCollection();
+            //ac.BubbleSort();
+            //ac.SelectSort();
+            ac.PrintCollection();
+            ac.MergeSort();
+            ac.PrintCollection();
+            //ac.QuickSort();
 
-            //tree.InOrderTraversal();
+        }
 
-            //tree.PostOrderTraversal();
-
-            Console.WriteLine("IsBinarySearchTree={0}", tree.IsBinarySearchTree());
-
+        static private void RunQuestions()
+        {
             //IQuestion[] questions = new IQuestion[]
             //{
             //    // Chapters
@@ -59,8 +61,6 @@ namespace ctarti
             //}
 
             //Console.WriteLine(string.Format("{0}{1}", Environment.NewLine, Environment.NewLine));
-            Console.WriteLine("Press [Enter] to quit");
-            Console.ReadLine();
         }
     }
 }

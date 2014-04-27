@@ -65,6 +65,10 @@
       <Project>{c38f7918-29c6-45f1-89c6-9ad38015bd81}</Project>
       <Name>Chapter04</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ctarti.DataStructures\ctarti.DataStructures.csproj">
+      <Project>{2d8055e0-fd1b-49ec-8682-d01d202bdbf3}</Project>
+      <Name>ctarti.DataStructures</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ctarti.Library\ctarti.Library.csproj">
       <Project>{f2cd4a4f-1649-412c-9413-1d010fa6ea64}</Project>
       <Name>ctarti.Library</Name>

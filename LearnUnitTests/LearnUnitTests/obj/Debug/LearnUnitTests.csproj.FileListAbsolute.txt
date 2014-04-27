@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnUnitTests\LearnUnitTests\bin\Debug\LearnUnitTests.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnUnitTests\LearnUnitTests\bin\Debug\LearnUnitTests.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnUnitTests\LearnUnitTests\bin\Debug\LearnUnitTests.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnUnitTests\LearnUnitTests\obj\Debug\LearnUnitTests.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnUnitTests\LearnUnitTests\obj\Debug\LearnUnitTests.pdb

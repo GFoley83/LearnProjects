@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.DataStructures\obj\Debug\ctarti.DataStructures.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.DataStructures\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.DataStructures\bin\Debug\ctarti.DataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.DataStructures\obj\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti.DataStructures\obj\Debug\ctarti.DataStructures.pdb

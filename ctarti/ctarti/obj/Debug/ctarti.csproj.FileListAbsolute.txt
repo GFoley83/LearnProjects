@@ -14,3 +14,5 @@ C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\ctarti.L
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.csprojResolveAssemblyReference.cache
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.exe
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\ctarti.DataStructures.pdb

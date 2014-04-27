@@ -47,9 +47,6 @@
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="My Data Structures\MyBinaryTree.cs" />
-    <Compile Include="My Data Structures\MyDGraphNode.cs" />
-    <Compile Include="My Data Structures\MyDllNode.cs" />
-    <Compile Include="My Data Structures\MySllNode.cs" />
     <Compile Include="My Data Structures\MyTrie.cs" />
     <Compile Include="My Data Structures\MyUGraphTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

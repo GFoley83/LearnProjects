@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ctarti.Library
+namespace ctarti.DataStructures
 {
-    class MySllNode
+    public class QueueNode
+    {
+    }
+
+    public class QueueCollection
     {
     }
 }
