@@ -1,0 +1,7 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\bin\Debug\ctari.DataStructures.UnitTest.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\bin\Debug\ctari.DataStructures.UnitTest.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\bin\Debug\ctarti.DataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\obj\Debug\ctarti.DataStructures.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\obj\Debug\ctari.DataStructures.UnitTest.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.DataStructures.UnitTest\obj\Debug\ctari.DataStructures.UnitTest.pdb

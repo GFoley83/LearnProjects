@@ -4,21 +4,21 @@ using System.Diagnostics;
 namespace ctarti.Library
 {
     [DebuggerDisplay("{Data}")]
-    public class BinaryTreeNode
+    public class BTNode
     {
         public int Data {get; set;}
-        public BinaryTreeNode Left {get; set;}
-	    public BinaryTreeNode Right {get; set;}
-	    public BinaryTreeNode Parent {get; set;}
+        public BTNode Left {get; set;}
+	    public BTNode Right {get; set;}
+	    public BTNode Parent {get; set;}
 	    public int Size {get; set;}
 
-	    public BinaryTreeNode(int d) 
+	    public BTNode(int d) 
         {
 		    Data = d;
 		    Size = 1;
 	    }
 	
-	    public void SetLeftChild(BinaryTreeNode left) 
+	    public void SetLeftChild(BTNode left) 
         {
 		    this.Left = left;
 		    if (left != null) {
@@ -26,7 +26,7 @@ namespace ctarti.Library
 		    }
 	    }
 	
-	    public void SetRightChild(BinaryTreeNode right) 
+	    public void SetRightChild(BTNode right) 
         {
 		    this.Right = right;
 		    if (right != null) {
@@ -38,13 +38,13 @@ namespace ctarti.Library
         {
 		    if (d <= Data) {
 			    if (Left == null) {
-				    SetLeftChild(new BinaryTreeNode(d));
+				    SetLeftChild(new BTNode(d));
 			    } else {
 				    Left.InsertInOrder(d);
 			    }
 		    } else {
 			    if (Right == null) {
-				    SetRightChild(new BinaryTreeNode(d));
+				    SetRightChild(new BTNode(d));
 			    } else {
 				    Right.InsertInOrder(d);
 			    }
@@ -76,7 +76,7 @@ namespace ctarti.Library
 		    return 1 + Math.Max(leftHeight, rightHeight);
 	    }
 	
-	    public BinaryTreeNode Find(int d) 
+	    public BTNode Find(int d) 
         {
 		    if (d == Data) {
 			    return this;
@@ -88,19 +88,19 @@ namespace ctarti.Library
 		    return null;
 	    }
 	
-	    private static BinaryTreeNode CreateMinimalBst(int[] arr, int start, int end)
+	    private static BTNode CreateMinimalBst(int[] arr, int start, int end)
         {
 		    if (end < start) {
 			    return null;
 		    }
 		    int mid = (start + end) / 2;
-		    BinaryTreeNode n = new BinaryTreeNode(arr[mid]);
+		    BTNode n = new BTNode(arr[mid]);
 		    n.SetLeftChild(CreateMinimalBst(arr, start, mid - 1));
 		    n.SetRightChild(CreateMinimalBst(arr, mid + 1, end));
 		    return n;
 	    }
 	
-	    public static BinaryTreeNode CreateMinimalBst(int[] array) 
+	    public static BTNode CreateMinimalBst(int[] array) 
         {
 		    return CreateMinimalBst(array, 0, array.Length - 1);
 	    }

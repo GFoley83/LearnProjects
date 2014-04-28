@@ -18,17 +18,16 @@ namespace UnitTestProject1
         public void TestRunMethodBadInputs()
         {
             LearnUnitTests.MyService service = new MyService();
+            string four = "fr";
             try
             {
-                string four = "fr";
-                //int x = service.Run("frt");
+                int x = service.Run("frt");
                 Assert.Fail("Added Non Int String", four);
             }
             catch(Exception e)
             {
                 Assert.IsNotNull(e);
             }
-            
         }
     }
 }

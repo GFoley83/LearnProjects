@@ -118,13 +118,14 @@ namespace ctarti.DataStructures
                 Console.WriteLine(node.GetAdjacent());
             }
         }
-        public object GenerateRandomCollection(int size, int minValue, int maxValue)
+        public void GenerateRandomCollection(int size, int minValue, int maxValue)
         {
-            GraphCollection graph = new GraphCollection();
+            Nodes.Clear();
+
             //Create Nodes
             for (int i = 0; i < size; i++)
             {
-                graph.AddNode(new GraphNode(i.ToString()));
+                this.AddNode(new GraphNode(i.ToString()));
             }
 
             //Create Edges
@@ -137,17 +138,15 @@ namespace ctarti.DataStructures
                 GraphNode target = new GraphNode(r.Next(0, size).ToString());
 
                 //Add Edges only if both source and target exist
-                if (graph.ContainsNode(source) && (graph.ContainsNode(target)) && (source.Key != target.Key))
+                if (this.ContainsNode(source) && (this.ContainsNode(target)) && (source.Key != target.Key))
                 {
-                    source = graph.SearchNode(source);
-                    target = graph.SearchNode(target);
+                    source = this.SearchNode(source);
+                    target = this.SearchNode(target);
 
-                    graph.AddDirectedEdge(source, target);
+                    this.AddDirectedEdge(source, target);
                     edgeCount++;
                 }
             }
-                    
-            return graph;
         }
 
         public void DeapthFirstTraversal(GraphNode node)
@@ -164,7 +163,6 @@ namespace ctarti.DataStructures
                     DeapthFirstTraversal(e.Neighbor);
             }
         }
-
         public void BreadthFirstTraversal(GraphNode node)
         {
             Queue<GraphNode> q = new Queue<GraphNode>();

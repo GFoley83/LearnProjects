@@ -1,0 +1,6 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\bin\Debug\DoFactory.GangOfFour.Strategy.RealWorld.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\bin\Debug\DoFactory.GangOfFour.Strategy.RealWorld.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\bin\Debug\DoFactory.GangOfFour.Strategy.RealWorld.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\obj\Debug\DoFactory.GangOfFour.Strategy.RealWorld.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\obj\Debug\DoFactory.GangOfFour.Strategy.RealWorld.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\DesignPatternFramework\Gang Of Four\DoFactory.GangOfFour.Strategy.RealWorld\obj\Debug\DoFactory.GangOfFour.Strategy.RealWorld.pdb

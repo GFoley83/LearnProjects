@@ -13,7 +13,7 @@ namespace ctarti.DataStructures
 
         public ArrayCollection()
         {
-            this.Items = (int[])GenerateRandomCollection(10, 1, 100);
+            GenerateRandomCollection(10, 1, 100);
         }
         public ArrayCollection(int[] arrayData)
         {
@@ -46,7 +46,7 @@ namespace ctarti.DataStructures
             return sb.ToString();
         }
 
-        public object GenerateRandomCollection(int size, int minValue, int maxValue)
+        public void GenerateRandomCollection(int size, int minValue, int maxValue)
         {
             int[] rndArray = new int[size];
             List<int> randCollection = new List<int>();
@@ -57,7 +57,7 @@ namespace ctarti.DataStructures
                 rndArray[i] = rnd.Next(minValue, maxValue);
             }
 
-            return rndArray;
+            Items = rndArray;
         }
         #endregion
 

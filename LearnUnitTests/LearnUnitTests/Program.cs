@@ -13,6 +13,8 @@ namespace LearnUnitTests
             MyService service = new MyService();
             int i = service.Run("4444");
             Console.WriteLine(i);
+            Console.ReadKey();
+
         }
     }
 

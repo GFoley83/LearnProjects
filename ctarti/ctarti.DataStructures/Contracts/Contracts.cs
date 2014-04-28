@@ -9,7 +9,7 @@ namespace ctarti.DataStructures
     public interface IDebugging
     {
             void PrintCollection();
-            object GenerateRandomCollection(int size, int minValue, int maxValue);
+            void GenerateRandomCollection(int size, int minValue, int maxValue);
     }
 
     public interface ISorting

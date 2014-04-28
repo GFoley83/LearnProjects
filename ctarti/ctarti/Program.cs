@@ -16,13 +16,26 @@ namespace ctarti
     {
         static void Main(string[] args)
         {
-            TestDataStructures();
+            TestBTPrinter();
+            //TestBkST();
+            //TestGraph();
 
-            Console.WriteLine("Press [Enter] to quit");
+            Console.WriteLine("\nPress [Enter] to quit");
             Console.ReadLine();
         }
 
-        static private void TestDataStructures()
+        static private void TestBST()
+        {
+            BinaryTreeCollection tree = new BinaryTreeCollection();
+            tree.GenerateRandomCollection(10, 1, 100);
+            tree.Add(new DataStructures.BinaryTreeNode(50));
+            tree.PrintCollection();
+            tree.Remove(tree.SearchForNode(new DataStructures.BinaryTreeNode(50)));
+            Console.WriteLine("");
+            tree.PrintCollection();
+        }
+
+        static private void TestGraph()
         {
             //LinkedListCollection llc = new LinkedListCollection();
             //llc.Add(new DataStructures.LinkedListNode(0));
@@ -39,16 +52,38 @@ namespace ctarti
             //ac.QuickSort();
 
             GraphCollection graph = new GraphCollection();
-            graph = ((GraphCollection)graph.GenerateRandomCollection(10, 10, 30));
-            graph.PrintCollection();
+            graph.GenerateRandomCollection(10, 10, 30);
+            //graph.PrintCollection();
 
-            Console.WriteLine("\n\nDeapthFirstTraversal:");
-            graph.DeapthFirstTraversal(graph.Nodes.First<GraphNode>());
+            //Console.WriteLine("\n\nDeapthFirstTraversal:");
+            //graph.DeapthFirstTraversal(graph.Nodes.First<GraphNode>());
 
-            graph.ResetVisitedNodes();
+            //graph.ResetVisitedNodes();
 
-            Console.WriteLine("\n\nDeapthFirstTraversal:");
-            graph.BreadthFirstTraversal(graph.Nodes.First<GraphNode>());
+            //Console.WriteLine("\n\nDeapthFirstTraversal:");
+            //graph.BreadthFirstTraversal(graph.Nodes.First<GraphNode>());
+
+
+
+
+        }
+
+        static private void TestBTPrinter()
+        {
+            //Library.BinaryTreeNode n = new Library.BinaryTreeNode(5);
+            //n.InsertInOrder(4);
+            //n.InsertInOrder(7);
+            
+            //n.InsertInOrder(6);
+
+            //n.InsertInOrder(2);
+            //n.InsertInOrder(3);
+            //n.InsertInOrder(88);
+            BinaryTreeCollection tree = new BinaryTreeCollection();
+            tree.GenerateRandomCollection(6, 0, 26);
+
+            BinaryTreePrinter.PrintNode(tree.Head);
+            int i;
         }
 
         static private void RunQuestions()

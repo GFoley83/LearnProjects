@@ -46,9 +46,7 @@
     <Compile Include="IQuestion.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="Logger.cs" />
-    <Compile Include="My Data Structures\MyBinaryTree.cs" />
-    <Compile Include="My Data Structures\MyTrie.cs" />
-    <Compile Include="My Data Structures\MyUGraphTree.cs" />
+    <Compile Include="My Data Structures\GenericBinaryTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Set.cs" />
     <Compile Include="TreeNode.cs" />
