@@ -104,9 +104,16 @@ namespace ctarti
                 new Q02_4(),
                 new Q02_5(),
                 new Q02_6(),
-                new Q02_7()
+                new Q02_7(),
 
-                //new Q03_1(),
+                new Q03_1(),
+                new Q03_2(),
+                new Q03_3(),
+                new Q03_4(),
+                new Q03_5(),
+                new Q03_6(),
+                new Q03_7()
+
                 //new Q04_1()
 
             };
