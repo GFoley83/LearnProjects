@@ -42,6 +42,12 @@
     <Compile Include="C02_Notes.cs" />
     <Compile Include="Q02_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q02_2.cs" />
+    <Compile Include="Q02_3.cs" />
+    <Compile Include="Q02_4.cs" />
+    <Compile Include="Q02_5.cs" />
+    <Compile Include="Q02_6.cs" />
+    <Compile Include="Q02_7.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ctarti.Library\ctarti.Library.csproj">

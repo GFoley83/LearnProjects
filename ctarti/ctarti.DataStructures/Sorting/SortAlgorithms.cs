@@ -42,7 +42,49 @@ namespace ctarti.DataStructures.Sorting
     {
         public override void Sort(int[] array)
         {
-            throw new NotImplementedException();
+            Quicksort(array, 0, array.Length);
+        }
+
+        public void Quicksort(int[] items, int left, int right)
+        {
+            int i = left, j = right;
+            int pivot = items[(left + right) / 2];
+
+            while (i <= j)
+            {
+                while (items[i].CompareTo(pivot) < 0)
+                    i++;
+
+                while (items[j].CompareTo(pivot) > 0)
+                    j--;
+
+                if (i <= j)
+                {
+                    // Swap
+                    Swap(items, i, j);
+                    i++;
+                    j--;
+                }
+            }
+
+            // Recursive Call Left
+            if (left < j)
+                Quicksort(items, left, j);
+
+            //Recursive Call Right
+            if (i < right)
+                Quicksort(items, i, right);
+        }
+
+
+        private int[] Swap(int[] items, int index1, int index2)
+        {
+
+            int tmp = items[index1];
+            items[index1] = items[index2];
+            items[index2] = tmp;
+
+            return items;
         }
     }
 

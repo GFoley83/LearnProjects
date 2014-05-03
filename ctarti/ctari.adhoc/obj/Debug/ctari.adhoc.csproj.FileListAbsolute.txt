@@ -1,0 +1,6 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\ctari.adhoc.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\ctari.adhoc.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\ctari.adhoc.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.csprojResolveAssemblyReference.cache

@@ -16,7 +16,8 @@ namespace ctarti
     {
         static void Main(string[] args)
         {
-            TestBTPrinter();
+            RunQuestions();
+            //TestBTPrinter();
             //TestBkST();
             //TestGraph();
 
@@ -88,25 +89,38 @@ namespace ctarti
 
         static private void RunQuestions()
         {
-            //IQuestion[] questions = new IQuestion[]
-            //{
-            //    // Chapters
-            //    new Q01_1(), 
-            //    new Q02_1(),
-            //    new Q03_1(),
-            //    new Q04_1()
-            //};
+            IQuestion[] questions = new IQuestion[]
+            {
+                new Q01_1(), 
+                new Q01_3(), 
+                new Q01_5(),
+                new Q01_6(),
+                new Q01_7(),
+                new Q01_8(),
 
-            //foreach (IQuestion q in questions)
-            //{
-            //    Console.WriteLine(string.Format("{0}{1}", Environment.NewLine, Environment.NewLine));
-            //    Console.WriteLine(string.Format("// Executing: {0}", q.GetType().ToString()));
-            //    Console.WriteLine("// ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----");
+                new Q02_1(),
+                new Q02_2(),
+                new Q02_3(),
+                new Q02_4(),
+                new Q02_5(),
+                new Q02_6(),
+                new Q02_7()
 
-            //    q.Run();
-            //}
+                //new Q03_1(),
+                //new Q04_1()
 
-            //Console.WriteLine(string.Format("{0}{1}", Environment.NewLine, Environment.NewLine));
+            };
+
+            foreach (IQuestion q in questions)
+            {
+                Console.WriteLine(string.Format("{0}{1}", Environment.NewLine, Environment.NewLine));
+                Console.WriteLine(string.Format("// Executing: {0}", q.GetType().ToString()));
+                Console.WriteLine("// ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----");
+
+                q.Run();
+            }
+
+            Console.WriteLine(string.Format("{0}{1}", Environment.NewLine, Environment.NewLine));
         }
     }
 }

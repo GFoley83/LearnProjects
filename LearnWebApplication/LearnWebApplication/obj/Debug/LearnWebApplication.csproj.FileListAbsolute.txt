@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnWebApplication\LearnWebApplication\bin\LearnWebApplication.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnWebApplication\LearnWebApplication\bin\LearnWebApplication.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnWebApplication\LearnWebApplication\obj\Debug\LearnWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnWebApplication\LearnWebApplication\obj\Debug\LearnWebApplication.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\LearnWebApplication\LearnWebApplication\obj\Debug\LearnWebApplication.pdb
