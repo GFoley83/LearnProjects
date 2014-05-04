@@ -65,6 +65,14 @@
       <Project>{c38f7918-29c6-45f1-89c6-9ad38015bd81}</Project>
       <Name>Chapter04</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter05\Chapter05.csproj">
+      <Project>{2ff3dada-a645-4d57-954f-ef4a3eafd6cd}</Project>
+      <Name>Chapter05</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chapter11\Chapter11.csproj">
+      <Project>{204f1f2e-1d0a-427e-9c87-67aa6a0e7913}</Project>
+      <Name>Chapter11</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ctarti.DataStructures\ctarti.DataStructures.csproj">
       <Project>{2d8055e0-fd1b-49ec-8682-d01d202bdbf3}</Project>
       <Name>ctarti.DataStructures</Name>

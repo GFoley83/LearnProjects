@@ -42,6 +42,7 @@
     <Compile Include="Array.cs" />
     <Compile Include="BinaryTree.cs" />
     <Compile Include="BinaryTreePrinter.cs" />
+    <Compile Include="BitStuff.cs" />
     <Compile Include="Contracts\Contracts.cs" />
     <Compile Include="Generics\GenericBinaryTree.cs" />
     <Compile Include="Graph.cs" />
@@ -51,9 +52,6 @@
     <Compile Include="Sorting\SortAlgorithms.cs" />
     <Compile Include="Sorting\SortStrategy.cs" />
     <Compile Include="Stack.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DataStructuresClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

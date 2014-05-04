@@ -1,0 +1,5 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\skmDataStructures\bin\Debug\skmDataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\skmDataStructures\bin\Debug\skmDataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\skmDataStructures\obj\Debug\skmDataStructures.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\skmDataStructures\obj\Debug\skmDataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\skmDataStructures\obj\Debug\skmDataStructures.pdb

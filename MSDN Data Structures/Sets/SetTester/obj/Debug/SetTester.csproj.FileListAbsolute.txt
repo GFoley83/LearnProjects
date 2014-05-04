@@ -1,0 +1,9 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\obj\Debug\SetTester.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\obj\Debug\SetTester.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\bin\Debug\SetTester.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\bin\Debug\SetTester.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\bin\Debug\skmDataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\bin\Debug\skmDataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\obj\Debug\SetTester.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\obj\Debug\SetTester.Form1.resources
+C:\Users\johnmor\Documents\GitHub\LearnProjects\MSDN Data Structures\Sets\SetTester\obj\Debug\SetTester.csproj.GenerateResource.Cache

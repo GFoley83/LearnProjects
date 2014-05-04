@@ -8,6 +8,7 @@ using Chapter01;
 using Chapter02;
 using Chapter03;
 using Chapter04;
+using Chapter05;
 using ctarti.DataStructures;
 
 namespace ctarti
@@ -112,9 +113,28 @@ namespace ctarti
                 new Q03_4(),
                 new Q03_5(),
                 new Q03_6(),
-                new Q03_7()
+                new Q03_7(),
 
-                //new Q04_1()
+                //new Q04_1(),
+                //new Q04_2(),
+                //new Q04_3(),
+                //new Q04_4(),
+                //new Q04_5(),
+                //new Q04_6(),
+                //new Q04_7(),
+                //new Q04_8(),
+                //new Q04_9(),
+
+                new Q05_1(),
+                new Q05_2()
+                //new Q05_3(),
+                //new Q05_4(),
+                //new Q05_5(),
+                //new Q05_6(),
+                //new Q05_7(),
+                //new Q05_8(),
+
+
 
             };
 

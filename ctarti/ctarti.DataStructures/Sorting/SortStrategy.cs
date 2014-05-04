@@ -37,7 +37,7 @@ namespace ctarti.DataStructures.Sorting
             foreach (int i in items)
                 after.AppendFormat("{0},", i);
 
-            Console.WriteLine("{0} ==> Swap({1},{2}) ==> {3} | CompCount={4}, SwapCount is {5}", before, value1, value2, after, CompCount, SwapCount);
+            //Console.WriteLine("{0} ==> Swap({1},{2}) ==> {3} | CompCount={4}, SwapCount is {5}", before, value1, value2, after, CompCount, SwapCount);
         }
         public void Reverse(int[] items)
         {
@@ -47,5 +47,16 @@ namespace ctarti.DataStructures.Sorting
             while (startIndex < endIndex) ;
                 Swap(items, startIndex++, endIndex--);
         }
+        
+    }
+
+    public enum SortStrategyType
+    {
+        BubbleSort,
+        InsertSort,
+        SelectSort,
+        MergeSort,
+        QuickSort,
+        RadixSort
     }
 }

@@ -16,3 +16,7 @@ C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\ctarti.L
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.csprojResolveAssemblyReference.cache
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.exe
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\obj\Debug\ctarti.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\Chapter05.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\Chapter11.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\Chapter05.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctarti\bin\Debug\Chapter11.pdb

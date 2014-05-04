@@ -13,3 +13,5 @@ C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\bin\De
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\obj\Debug\Question.UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\obj\Debug\Question.UnitTests.dll
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\obj\Debug\Question.UnitTests.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Question.UnitTests\bin\Debug\ctarti.DataStructures.pdb

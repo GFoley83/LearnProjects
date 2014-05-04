@@ -11,6 +11,7 @@ namespace Chapter03
     public class SetOfStack
     {
         public List<StackCollection> SetOfStacks = new List<StackCollection>();
+        StackCollection Items = new StackCollection();
         
         public SetOfStack()
         {
@@ -129,6 +130,20 @@ namespace Chapter03
             SetOfStacks.ElementAt(1).Push(SetOfStacks.ElementAt(2).Pop());
             Validate();
         }
+
+        public void Rotate()
+        {
+            StackCollection begin = SetOfStacks.ElementAt(0);
+            StackCollection sparse = SetOfStacks.ElementAt(1);
+            StackCollection end = SetOfStacks.ElementAt(2);
+
+            SetOfStacks.Clear();
+
+            //Rotate
+            SetOfStacks.Add(end);
+            SetOfStacks.Add(begin);
+            SetOfStacks.Add(sparse);
+        }
     }
 
     /*	4. In the class problem of the Tower of Hanoi, you have 3 towers and N disk of different 
@@ -145,11 +160,10 @@ namespace Chapter03
         public void Run()
         {
             SetOfStack set = new SetOfStack();
-            set.Print();
-            set.Move0To1();
-            set.Print();
-            set.Move0To1();
 
+            Console.WriteLine("Tower of Hanoi");
+            Console.WriteLine("B->E, B->S, E->S");
+            Console.WriteLine("loop until can't, then rotate stacks.");
         }
     }
 }

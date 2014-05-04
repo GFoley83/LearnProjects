@@ -4,3 +4,5 @@ C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\cta
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.csprojResolveAssemblyReference.cache
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.exe
 C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\obj\Debug\ctari.adhoc.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\ctari.adhoc\bin\Debug\ctarti.DataStructures.pdb

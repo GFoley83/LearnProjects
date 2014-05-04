@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ctarti.DataStructures;
 
 namespace Chapter03
 {
@@ -16,11 +17,81 @@ namespace Chapter03
      * dequeueAny, dequeueDog and dequeueCat. You may use the build-in Linked 
      * List data structure. */
 
+    public abstract class Animal : ctarti.DataStructures.LinkedListNode
+    {
+        public enum AnimalType { Cat, Dog }
+        public AnimalType Type;
+    }
+
+    public class Dog : Animal
+    {   
+        public Dog()
+        {
+            base.Type = AnimalType.Dog;
+        }
+    }
+
+    public class Cat : Animal
+    {
+        public Cat()
+        {
+            base.Type = AnimalType.Cat;
+        }
+    }
+
+    public class AnimalShelter
+    {
+        Queue<Dog> Dogs = new Queue<Dog>();
+        Queue<Cat> Cats = new Queue<Cat>();
+        int Order;
+
+        public void Enqueue(Animal animal)
+        {
+            if (animal.GetType() == typeof(Dog))
+            {
+                animal.Data = Order;
+                Dogs.Enqueue((Dog)animal);
+                Order++;
+            }
+            else if (animal.GetType() == typeof(Cat))
+            {
+                animal.Data = Order;
+                Cats.Enqueue((Cat)animal);
+                Order++;
+            }
+            else
+                throw new Exception("Animal Not Supported");
+        }
+        public Animal DequeueAny()
+        {
+            if (Dogs.Peek().Data < Cats.Peek().Data)
+                return DequeueDog();
+            else
+                return DequeueCat();
+        }
+        public Dog DequeueDog() { return Dogs.Dequeue(); }
+        public Cat DequeueCat() { return Cats.Dequeue(); }
+
+    }
+
+
+
     public class Q03_7 : IQuestion
     {
         public void Run()
         {
- 
+            AnimalShelter shelter = new AnimalShelter();
+            shelter.Enqueue(new Cat());
+            shelter.Enqueue(new Dog());
+            shelter.Enqueue(new Cat());
+            shelter.Enqueue(new Dog());
+
+            Console.WriteLine(shelter.DequeueDog().Type.ToString());
+            Console.WriteLine(shelter.DequeueAny().Type.ToString());
+            Console.WriteLine(shelter.DequeueDog().Type.ToString());
+            Console.WriteLine(shelter.DequeueCat().Type.ToString());
+
+
         }
     }
 }

@@ -80,6 +80,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ctarti.DataStructures\ctarti.DataStructures.csproj">
+      <Project>{2d8055e0-fd1b-49ec-8682-d01d202bdbf3}</Project>
+      <Name>ctarti.DataStructures</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

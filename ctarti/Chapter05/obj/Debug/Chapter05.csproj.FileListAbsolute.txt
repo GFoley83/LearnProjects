@@ -1,0 +1,9 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\Chapter05.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\Chapter05.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\ctarti.DataStructures.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\ctarti.Library.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\ctarti.DataStructures.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\bin\Debug\ctarti.Library.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\obj\Debug\Chapter05.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\obj\Debug\Chapter05.dll
+C:\Users\johnmor\Documents\GitHub\LearnProjects\ctarti\Chapter05\obj\Debug\Chapter05.pdb

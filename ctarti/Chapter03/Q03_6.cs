@@ -16,7 +16,8 @@ namespace Chapter03
     {
         public void Run()
         {
-             
+            Console.WriteLine("Stack #1: max = Stack1.Largetst. S1.Pop and S2.Puch until reach Max. Save Max to Tmp Variable. Replace Other Itmes to S1, i.e. S2.Pop and S1.Push.");
+            Console.WriteLine("Repeat until fully sorted on S2 in desc order. Then flip it to stack 1 in asending ordering.");
         }
     }
 }

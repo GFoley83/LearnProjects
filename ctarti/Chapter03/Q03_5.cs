@@ -13,7 +13,11 @@ namespace Chapter03
     {
         public void Run()
         {
-            
+            Console.WriteLine("Q w/ Two Stacks");
+            Console.WriteLine("First Stack Holds Data");
+            Console.WriteLine("Second Stack Used to Reverse Data");
+            Console.WriteLine("Shuffle as Needed");
+            Console.WriteLine("Optimize by Using Lazy Shuffeling");
         }
     }
 }

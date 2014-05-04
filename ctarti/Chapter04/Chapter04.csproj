@@ -41,8 +41,20 @@
   <ItemGroup>
     <Compile Include="Q04_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q04_2.cs" />
+    <Compile Include="Q04_3.cs" />
+    <Compile Include="Q04_4.cs" />
+    <Compile Include="Q04_5.cs" />
+    <Compile Include="Q04_6.cs" />
+    <Compile Include="Q04_7.cs" />
+    <Compile Include="Q04_8.cs" />
+    <Compile Include="Q04_9.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ctarti.DataStructures\ctarti.DataStructures.csproj">
+      <Project>{2d8055e0-fd1b-49ec-8682-d01d202bdbf3}</Project>
+      <Name>ctarti.DataStructures</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ctarti.Library\ctarti.Library.csproj">
       <Project>{f2cd4a4f-1649-412c-9413-1d010fa6ea64}</Project>
       <Name>ctarti.Library</Name>

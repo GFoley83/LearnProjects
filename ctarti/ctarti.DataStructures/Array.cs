@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using ctarti.DataStructures.Sorting;
 namespace ctarti.DataStructures
 {
     public class ArrayCollection : IDebugging, ISorting
@@ -24,13 +24,13 @@ namespace ctarti.DataStructures
         public void PrintCollection()
         {
             Console.WriteLine("-----------------------");
-            Console.WriteLine("ArrayData: ");
+            Console.WriteLine("Size={0}, SwapCount={1}, CompCount={2}, IsSorted={3}", Items.Length, Strategy.SwapCount, Strategy.CompCount, IsSorted());
             foreach (int i in Items)
             {
                 Console.Write("{0}, ", i);
             }
+            Console.WriteLine("\n-----------------------");
 
-            Console.WriteLine("");
         }
 
         public override string ToString()
@@ -103,15 +103,7 @@ namespace ctarti.DataStructures
         /// </summary>
         public void InsertSort()
         {
-            for (int i = 0; i < Items.Length; i++)
-            {
-                int val = Items[i];
-
-                for (int j = 0; j < i; j++)
-                {
-
-                }
-            }
+            throw new NotImplementedException("InsertSort Not Implemented");
         }
 
         /// <summary>
@@ -288,6 +280,8 @@ namespace ctarti.DataStructures
             return storeIndex;
         }
 
+
+
         public void RadixSort()
         {
             throw new NotImplementedException();
@@ -313,5 +307,60 @@ namespace ctarti.DataStructures
         }
         #endregion
 
+        #region SortStrategy
+        SortStrategy Strategy;
+
+        public void SortViaStrategy(SortStrategyType sortType)
+        {
+            switch (sortType)
+            {
+                case SortStrategyType.BubbleSort:
+                    Strategy = new BubbleSort();
+                    Strategy.Sort(Items);
+                    break;
+                case SortStrategyType.InsertSort:
+                    Strategy = new InsertSort();
+                    Strategy.Sort(Items);
+                    break;
+                case SortStrategyType.SelectSort:
+                    Strategy = new SelectSort();
+                    Strategy.Sort(Items);
+                    break;
+                case SortStrategyType.MergeSort:
+                    Strategy = new MergeSort();
+                    Strategy.Sort(Items);
+                    break;
+                case SortStrategyType.QuickSort:
+                    Strategy = new QuickSort();
+                    Strategy.Sort(Items);
+                    break;
+                case SortStrategyType.RadixSort:
+                    Strategy = new RadixSort();
+                    Strategy.Sort(Items);
+                    break;
+                default:
+                    throw new Exception("Sort Type No Found");
+            }
+        }
+
+        public bool IsSorted()
+        {
+            List<int> itemsList = Items.ToList<int>();
+            itemsList.Sort();
+
+            for (int i = 0; i < Items.Length; i++)
+            {
+                if (Items[i] != itemsList[i])
+                {
+                    //Console.WriteLine("Not Sorted!");
+                    return false;
+                }
+            }
+
+            //Console.WriteLine("Sorted!");
+            return true;
+        }
+        
+        #endregion
     }
 }

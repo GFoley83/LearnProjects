@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ctarti.DataStructures;
+using ctarti.DataStructures.Sorting;
 
 namespace ctari.adhoc
 {
@@ -10,10 +12,61 @@ namespace ctari.adhoc
     {
         static void Main(string[] args)
         {
-            Array2D();
-
-
+            //Bit();
+            SortStuff();
             Console.ReadKey();
+        }
+
+        private static void SortStuff()
+        {
+            ArrayCollection master = new ArrayCollection();
+            master.GenerateRandomCollection(100, 0, 1000);
+
+            //Buble Sort
+            ArrayCollection buble = new ArrayCollection((int[])master.Items.Clone());
+            buble.SortViaStrategy(SortStrategyType.BubbleSort);
+            buble.PrintCollection();
+
+            //Select Sort
+            ArrayCollection select = new ArrayCollection((int[])master.Items.Clone());
+            select.SortViaStrategy(SortStrategyType.SelectSort);
+            select.PrintCollection();
+
+            //Insert Sort
+            //i.e. Sorted Array or List
+
+
+            //Merge Sort
+            ArrayCollection merge = new ArrayCollection((int[])master.Items.Clone());
+            merge.SortViaStrategy(SortStrategyType.MergeSort);
+            merge.PrintCollection();
+
+            //Quick Sort
+            ArrayCollection quick = new ArrayCollection((int[])master.Items.Clone());
+            quick.SortViaStrategy(SortStrategyType.QuickSort);
+            quick.PrintCollection();
+        }
+
+        private static void Bit()
+        {
+            int a = 10;
+            int b = 1;
+            int c = 0;
+
+            //Console.WriteLine("ROTL|SHL = num * 2");
+            //BitStuff.PrintInt(a);
+            //BitStuff.PrintInt(BitStuff.RotateLeft(a, 1));
+            //BitStuff.PrintInt(a << 1);
+
+            //Console.WriteLine("\nROTR = num / 2");
+            //BitStuff.PrintInt(a);
+            //BitStuff.PrintInt(BitStuff.RotateRight(a, 1));
+            //BitStuff.PrintInt(a >> 1);
+
+            BitStuff.PrintInt(BitStuff.GetBit(1, 0) ? 1 : 0);
+            Console.WriteLine("{0}", (3 & (1 << 0)));
+
+            
         }
 
         private static void Array2D()
@@ -39,7 +92,6 @@ namespace ctari.adhoc
             //4
             //7
         }
-
         private static void IntAddr()
         {
             int number = 4;

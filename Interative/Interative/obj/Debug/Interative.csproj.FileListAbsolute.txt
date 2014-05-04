@@ -1,0 +1,6 @@
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\bin\Debug\Interative.exe.config
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\bin\Debug\Interative.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\bin\Debug\Interative.pdb
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\obj\Debug\Interative.csprojResolveAssemblyReference.cache
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\obj\Debug\Interative.exe
+C:\Users\johnmor\Documents\GitHub\LearnProjects\Interative\Interative\obj\Debug\Interative.pdb
