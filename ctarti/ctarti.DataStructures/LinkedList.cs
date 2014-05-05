@@ -29,6 +29,20 @@ namespace ctarti.DataStructures
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return Data.ToString();
+        }
+
+        internal void PrintNode()
+        {
+            Console.Write("{0}-->", Data);
+            if (Next != null)
+                Next.PrintNode();
+            else
+                Console.Write("\n");
+        }
     }
 
     public class LinkedListCollection: IEnumerable<LinkedListNode>
@@ -41,8 +55,10 @@ namespace ctarti.DataStructures
         {
             if (node == null)
                 throw new Exception("Node is null");
-
-            FindTail().Next = node;
+            else if (Head == null)
+                Head = node;
+            else
+                FindTail().Next = node;
         }
         public void Remove(LinkedListNode node)
         {
@@ -78,6 +94,11 @@ namespace ctarti.DataStructures
             }
 
             return currentNode;
+        }
+
+        public void PrintCollection()
+        {
+            Head.PrintNode();
         }
 
         public override string ToString()

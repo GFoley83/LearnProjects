@@ -13,8 +13,53 @@ namespace ctari.adhoc
         static void Main(string[] args)
         {
             //Bit();
-            SortStuff();
+            //SortStuff();
+            while (true)
+            {
+                TreeStuff();
+                Console.ReadKey();
+            }
+
+        }
+
+        /*         4
+                  / \
+                 /   \
+                /     \
+               /       \
+               2        7
+              / \      / \
+             /   \    /   \
+             0    3   5     8
+                       \     \
+                        6     9
+        */
+
+        private static void TreeStuff()
+        {
+            int[] sortedArray0 = { 0 };
+            int[] sortedArray1 = { 0, 1, 2 };
+            int[] sortedArray2 = { 0, 1, 2, 4 };
+            int[] sortedArray3 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] unsortedArray0 = { 4, 2, 7, 0, 3, 5, 8, 6, 9 };
+
+
+            BinaryTreeCollection tree = new BinaryTreeCollection();
+           
+            tree.Clear();
+            foreach (int i in unsortedArray0)
+                tree.Add(new BinaryTreeNode(i));
+            BinaryTreePrinter.PrintNode(tree.Head);
+            tree.FindCommonParent(tree.Head, tree.Head.Left.Left, tree.Head.Left.Right, new FindCommonParentResults());
+
+            BinaryTreePrinter.PrintNode(tree.Head);
+            tree.FindCommonParent(tree.Head, tree.Head, tree.Head.Left.Right, new FindCommonParentResults());
+
+            BinaryTreePrinter.PrintNode(tree.Head);
+            tree.FindCommonParent(tree.Head, tree.Head.Right.Right.Right, tree.Head.Left.Right, new FindCommonParentResults());
+
             Console.ReadKey();
+
         }
 
         private static void SortStuff()
