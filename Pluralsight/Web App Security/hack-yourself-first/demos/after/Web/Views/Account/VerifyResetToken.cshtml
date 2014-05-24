@@ -1,0 +1,36 @@
+﻿@model Web.Models.PasswordResetVerificationModel
+
+@{
+  ViewBag.Title = "Reset password";
+}
+
+<hgroup>
+  <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+@using (Html.BeginForm("VerifyResetToken", "Account", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+  @Html.ValidationSummary()
+  @Html.HiddenFor(model => model.Token)
+
+  <fieldset>
+    <legend>Change password.</legend>
+    <div class="control-group">
+      @Html.LabelFor(m => m.NewPassword, new { @class = "control-label" })
+      <div class="controls">
+        @Html.PasswordFor(m => m.NewPassword)
+      </div>
+    </div>
+    <div class="control-group">
+      @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
+      <div class="controls">
+        @Html.PasswordFor(m => m.ConfirmPassword)
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <input type="submit" value="Change password" class="btn" />
+      </div>
+    </div>
+  </fieldset>
+}
