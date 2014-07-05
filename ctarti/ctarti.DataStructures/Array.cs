@@ -237,7 +237,6 @@ namespace ctarti.DataStructures
             QuickSortInner(Items, 0, Items.Length - 1);
         }
 
-        
         Random _pivotRng = new Random(); //randmoize pivot number
         private void QuickSortInner(int[] items, int left, int right)
         {
